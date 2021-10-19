@@ -1,0 +1,98 @@
+body {
+    background-image: url(../img/circle-blues.png);
+}
+
+.MasterPage {
+    position: absolute;
+    left: 22%;
+    height: 100%;
+    width: 60%;
+}
+
+.Bob {
+    border-radius: 20%;
+    border: 4px solid rgb(89, 105, 94);
+    color: rgb(36, 12, 12);
+    padding: 20px;
+    width: 300px;
+}
+
+.Paper-Header {
+    background-image: url(../img/dwayne-the-bob.jpg);
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+}
+
+.Paper-Title {
+    font-size: 30px;
+    background-color: antiquewhite;
+    border: solid 5px rgb(85, 41, 126);
+    border-radius: 20%;
+    bottom: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.Square {
+    padding: 5px;
+    text-align: center;
+    font-size: 40px;
+    height: 50px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 30px;
+    margin: 30px;
+    display: inline-block;
+}
+
+.Content-Squares {
+    display: table;
+    max-width: 91%;
+    min-width: 91%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.Paper-Text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 22px;
+    margin-left: 105px;
+    line-height: 1em;
+}
+
+.Paper-List {
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.quote {
+    font-style: initial;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.quote-signature {
+    font-style: italic;
+    text-align: right;
+}
+
+.Paper-Quote {
+    width: fit-content;
+    line-height: 0.7em;
+}
+
+* {
+    background-color: rgb(169, 203, 204);
+}
+
+img {
+    border-radius: 20%;
+    border: 4px solid rgb(211, 82, 7);
+    padding: 3px;
+}

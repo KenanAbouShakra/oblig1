@@ -1,0 +1,26 @@
+p {
+    margin-left: 70px; 
+    font-size: 25px; 
+    line-height: 1em;
+    margin-left: 350px;
+}
+
+p.quote {
+    font-style: italic;
+}
+img {
+width: 300px;
+text-align: right;
+height: 240px; 
+padding: 4px;
+border-radius: 10%;
+border: 5px solid rgb(110, 223, 4);
+
+}
+*{
+background-color: bisque;
+}
+p.quote-signature {
+font-style: italic;
+text-align: right;
+}
